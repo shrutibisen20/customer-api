@@ -1,0 +1,11 @@
+
+{
+  "name": "customer-api",
+  "version": "1.0.0",
+  "description": "A simple Node.js application for Jenkins CI/CD practice",
+  "main": "app.js",
+  "scripts": {
+    "build": "node --check app.js",
+    "test": "node --test"
+  }
+}
