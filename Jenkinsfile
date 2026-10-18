@@ -20,14 +20,14 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'node --check app.js'
+                sh 'node --check app.js'
                 echo 'Build completed successfully'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'node --test'
+                sh 'node --test'
             }
         }
 
